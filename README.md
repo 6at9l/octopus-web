@@ -1,1 +1,2 @@
 # octopus-web
+educational resource
