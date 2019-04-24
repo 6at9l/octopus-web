@@ -1,0 +1,29 @@
+[href="./examples/selector_tag_name.html"] {
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+[href*="./examples/"] {
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+[href^="http"] {
+  color: red;
+}
+
+[href$="octopus-web"] {
+  font-size: 24px;
+}
+
+a[href*="#"] {
+  display: block;
+}
+
+a[href*="#"]:hover {
+  background: yellow;
+}
+
+nav a:last-child {
+  display: none;
+}

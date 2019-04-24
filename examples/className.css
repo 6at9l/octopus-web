@@ -1,0 +1,53 @@
+* {
+  font-size: 16px;
+}
+
+.auto {
+  text-decoration: underline;
+}
+
+.date {
+  text-align: right;
+}
+
+.my {
+  color: green;
+}
+
+.my-text {
+  font-style: italic;
+}
+
+.my-date {
+  color: red;
+}
+
+.my-2 .author {
+  color: green;
+}
+
+.my-2 p {
+  font-style: italic;
+}
+
+.my-2 .date {
+  color: red;
+}
+
+ul li {
+  color: red;
+}
+
+li > span {
+  background: yellow;
+}
+
+#dark p {
+  color: white;
+  background: black;
+}
+
+#light p {
+  color: black;
+  background: white;
+}
