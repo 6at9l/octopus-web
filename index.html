@@ -5,27 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <a href="./examples/selector_tag_name.html">selector_tag_name</a>
-    <br />
-    <a href="./examples/className.html">className</a>
-    <div></div>
-    <a
-      href="https://docs.google.com/presentation/d/1Q572ATA-BbNhc3b4dl9QHXUaE2gWHO3ASeE5l3n1Fr8/edit#slide=id.g511d4cbe25_0_48"
-    >
-      CSS
-    </a>
-    <br />
-    <a href="https://github.com/6at9l/octopus-web">github</a>
-    <br /><br />
-    <nav>
-      <a href="#1">#1</a>
-      <a href="#2">#2</a>
-      <a href="#3">#3</a>
-      <a href="#4">#4</a>
-    </nav>
+    <style>
+      html {
+        font-size: 24px;
+      }
+      .percent-100 {
+        width: 100%;
+        height: 40px;
+        background: green;
+      }
+
+      .percent-50 {
+        height: 40px;
+        width: 50%;
+        background: red;
+      }
+
+      .em-1 {
+        font-size: 20px;
+      }
+      .em-2 {
+        font-size: 0.5em;
+      }
+
+      .em-3 {
+        font-size: 2em;
+      }
+
+      .rem-1 {
+        font-size: 1rem;
+      }
+      .rem-2 {
+        font-size: 2rem;
+      }
+
+      .rem-3 {
+        font-size: 4rem;
+      }
+
+      .vh {
+        height: 20vh;
+        background: gray;
+      }
+
+      .vh .vh {
+        background: red;
+        width: 50vw;
+      }
+
+      .last {
+        width: 20vmin;
+        height: 20vmin;
+        background: yellow;
+      }
+    </style>
+
+    <div class="percent-100">
+      <div class="percent-50">
+        <div class="percent-50" style="background:gold"></div>
+      </div>
+    </div>
+
+    <span class="em-1">
+      <!-- 20 -->
+      lorem
+      <span class="em-2">
+        <!-- 10 -->
+        lorem
+        <span class="em-3">
+          <!-- 20 -->
+          lorem
+        </span>
+      </span>
+    </span>
+
+    <span class="rem-1">
+      <!-- 20 -->
+      lorem
+      <span class="rem-2">
+        <!-- 10 -->
+        lorem
+        <span class="rem-3">
+          <!-- 20 -->
+          lorem
+        </span>
+      </span>
+    </span>
+
+    <section class="vh">
+      <section class="vh"></section>
+    </section>
+
+    <section class="last"></section>
+
+    <p style="width: fit-content">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit quas
+      repellat
+    </p>
   </body>
-  <!--  -->
 </html>
